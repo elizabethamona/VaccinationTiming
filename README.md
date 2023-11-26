@@ -23,7 +23,7 @@
 6.  Plot the states and obtain the estimates
 
 
-**Scenario Analysis and Hellinger Distance (for models 1 and 2):** To reproduce the plots in Figure 5, run the "Scenario_HellingerDist_Analysis.R" file. This code will reproduce the density plots for all the six scenarios and their Hellinger distance calculation.
+** Scenario Analysis and Hellinger Distance (for models 1 and 2): ** To reproduce the plots in Figure 5, run the "Scenario_HellingerDist_Analysis.R" file. This code will reproduce the density plots for all the six scenarios and their Hellinger distance calculation.
 
 **Instruction:** Ensure to load all the .Rdat files in the "Scenario_HellingerDist_Analysis.R" code. Those are the results obtained from the scenario analysis I performed. You don't need all the scenario analysis code since it is similar to the main code. All you need is the results I have generated. If you want to perform your own scenario analysis, please use my main code and consider all the six scenarios I included in the "Scenario_HellingerDist_Analysis.R" file.
 
