@@ -1,10 +1,12 @@
 **Model 1:** To obtain the parameter estimates and Psuedo-R^2 in Table 1 (in the paper) and the model fits Figure 3(a-f), you need three major files: "S1EI1R1DVS2I2R2.Model1.R", "MH55.R" and "MH55.cpp". In addition, you need two other files: "StartStepValuesMC8_new.RData" and "Q1MCMC20.Rdat". 
-**Instruction:** 1. Ensure that you can run a CPP file by downloading necessary files
-                2. Source "MH55.R" and "MH55.cpp" using the source function in R (see the code )
-                3. Read in the data and run the initial/start values
-               4. Load the "StartStepValuesMC8_new.RData" 
-               5. Load "Q1MCMC20.Rdat" to obtain the 50,000 samples I generated. 
-               6. Plot the states and obtain the estimates
+
+**Instruction:** :
+                - Ensure that you can run a CPP file by downloading necessary files
+               -  Source "MH55.R" and "MH55.cpp" using the source function in R (see the code )
+               -  Read in the data and run the initial/start values
+               -  Load the "StartStepValuesMC8_new.RData" 
+              -  Load "Q1MCMC20.Rdat" to obtain the 50,000 samples I generated. 
+              -  Plot the states and obtain the estimates
 
 
 
