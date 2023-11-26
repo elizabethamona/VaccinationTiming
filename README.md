@@ -1,4 +1,4 @@
-**Model 1:** To obtain the parameter estimates and Psuedo-R^2 in Table 1 (in the paper) and the model fits Figure 3(a-f), you need three major files: "S1EI1R1DVS2I2R2.Model1.R", "MH55.R" and "MH55.cpp". In addition, you need two other files: "StartStepValuesMC8_new.RData" and "Q1MCMC20.Rdat". 
+**Model 1:** To obtain the parameter estimates and Psuedo-R^2 in Table 1 (in the paper) and the model fits Figure 3(a-f), you need three major files: "S1EI1R1DVS2I2R2.Model.R", "MH55.R" and "MH55.cpp". In addition, you need two other files: "StartStepValuesMC8_new.RData" and "Q1MCMC20.Rdat". 
 
 **Instruction:**
 
