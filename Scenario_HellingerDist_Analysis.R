@@ -131,7 +131,7 @@ den7.7 <- density(DeathsL100.540)
 
 
 #%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-# Scenario plots for the Cumulative Infected at day 540. See Table 5(a)
+# Scenario plots for the Cumulative Infected at day 540. See Figure 5(a)
 #%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
@@ -304,7 +304,7 @@ cat("Hellinger Distance:", hellinger_distance, "\n")
 
 
 #####################################################################################
-########## Scenario plots for the Cumulative Reinfected at day 540. See Table 5(b)
+########## Scenario plots for the Cumulative Reinfected at day 540. See Figure 5(b)
 
 
 pdf("Reinfections.all.pdf")
@@ -329,6 +329,7 @@ legend("topright", c("Scenario 1", "Scenario 2", "Scenario 3", "Scenario 4", "Sc
 
 dev.off()
 
+######### Hellinger Distance calculation
 
 ###################################################
 ## 94 and 100 efficacy : Scenarios 1 and 2
@@ -458,7 +459,7 @@ cat("Hellinger Distance:", hellinger_distance, "\n")
 
 
 #####################################################################################
-############%%%%%%%%%%  Scenario plots for the Cumulative Deaths at day 540. See Table 5(c)
+############%%%%%%%%%%  Scenario plots for the Cumulative Deaths at day 540. See Figure 5(c)
 
 
 pdf("Deaths.all.pdf")
