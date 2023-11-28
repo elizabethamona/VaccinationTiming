@@ -125,8 +125,7 @@ phi1Step <- c( 1.00e-06, 1.00e-6, 1.00e-6, 1.00e-6)
 
 ####### Create start step values
 filename8_new <- "StartStepValuesMC8_new" # These are the values that have converged and used for the analysis
-load(filename8_new) # Loading these values allows you to reproduce my start values. 
-#Note: If you want to regenerate the values yourself, you can comment the load function in your first run and the uncomment it after the first run to obtain new start values.
+#load(filename8_new) # Loading these values allows you to reproduce my start values. But you can leave it commented if you want to generate your own startvalues. 
 
 
 
