@@ -112,7 +112,7 @@ phi1Step <- c( 1.00e-06, 1.00e-6, 1.00e-06, 1.00e-6)
 ####### Read in the start step values from a file...
 
 filename8_SVEIRD <- "StartStepValuesMCSVEIRD.RData"
-load(filename8_SVEIRD)
+#load(filename8_SVEIRD) # Uncomment this if you want to load my startvalues.
 
 
 
