@@ -4,7 +4,7 @@
 **Abstract:**  Qatar has undergone distinct waves of infections, compounded by the emergence of variants, posing additional complexities. This research uniquely delves into the varied efficacy of existing vaccines and the pivotal role of vaccination timing in the context of COVID-19. Departing from conventional modeling, we introduce two models that account for the impact of vaccines on infections, reinfections, and deaths. Recognizing the intricacy of these models, we use the Bayesian framework and specifically utilize the Metropolis-Hastings Sampler for estimation of model parameters. Scenario analyses on the two models are conducted, quantifying the similarities in probability distributions of infected, reinfected, and deaths using the Hellinger distance metric. Comparative analysis, employing the Bayes factor, underscores the plausibility of a model assuming a different susceptibility rate to reinfection, as opposed to assuming the same susceptibility rate for both infections and reinfections. Results highlight the adverse outcomes associated with delayed vaccination, emphasizing the efficacy of early vaccination in reducing infections, reinfections, and deaths. We advocate prioritizing early vaccination, irrespective of vaccine efficacy, as a key strategy in effectively combating future pandemics. This study contributes vital insights for evidence-based public health interventions, providing clarity on vaccination strategies and reinforcing preparedness for challenges posed by infectious diseases.
 
 ### The Models Description 
-**Model 1:** To obtain the parameter estimates and Psuedo-R^2 like I have in Table 1 (in the paper) and the model fits Figure 3(a-f), you need three major files: "S1EI1R1DVS2I_IR_R.Model.R", "MH55.R" and "MH55.cpp". In addition, you need another file called the "StartStepValuesMC8_new.RData". You can generate your own "Q1MCMC20.Rdat" file after you have run the code once.
+**Model 1:** To obtain the parameter estimates and Psuedo-R^2 like I have in Table 1 (in the paper) and the model fits Figure 3(a-f), you need three major files: "S1EIRDVS2I_IR_R.Model.R", "MH55.R" and "MH55.cpp". In addition, you need another file called the "StartStepValuesMC8_new.RData". You can generate your own "Q1MCMC20.Rdat" file after you have run the code once.
 
 **Instruction for Model 1 Analysis:**
 
@@ -16,7 +16,7 @@
 
 
 
-**Model 2:** To obtain the parameter estimates and Psuedo-R^2 in Table 1 (in the paper) and the model fits Figure 4(a-f), you need three major files: "SVEIRDI_IR_R.Model2.R", "SVEIRD.R" and "SVEIRD.cpp". In addition, you need two other files: "StartStepValuesMC8_new.RData" and "Q1MCMC20_SV.Rdat". 
+**Model 2:** To obtain the parameter estimates and Psuedo-R^2 in Table 1 (in the paper) and the model fits Figure 4(a-f), you need three major files: "SEIRDVI_IR_R.Model2.R", "SVEIRD.R" and "SVEIRD.cpp". In addition, you need two other files: "StartStepValuesMC8_new.RData" and "Q1MCMC20_SV.Rdat". 
 
 **Instruction for Model 2 Analysis:**
 
