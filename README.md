@@ -32,7 +32,7 @@
 **Instruction:** Ensure to load all the .Rdat files you obtain when you run your scenario analysis. I already generated my results, so I just "load" the results for all six scenarios in the "ScenarioHellingerDistAnalysis.R" code provided. Note that those are the results obtained from the scenario analysis I performed. If you want to perform your own scenario analysis, please use my main code and consider all the six scenarios I included in the "ScenarioHellingerDistAnalysis.R" file.
 
 **In summary:**
-- There are a total of **"7 R files" and "1 .Rdat file"**. Carefully run this file in the directory you have downloaded them all.
+- There are a total of **"7 R files" and "1 .Rdat file"**. Carefully run these files in the directory you have downloaded them all.
 - I would suggest you create two different folders for the two models so you can run the models seperately to avoid any form of mistake when running the code.
 - Also, when performing the scenario analysis, ensure that the .Rdat file is in the same folder. 
 
