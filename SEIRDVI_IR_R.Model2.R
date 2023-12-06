@@ -2,7 +2,7 @@
 ########### This analysis no S2 compartment with some interventions--- Model 2 in the paper
 
 #%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-# This code produces the results in model 2 (SVEIRDI2R2 model) 
+# This code produces the results in model 2 (SEIRDVI_I2R_R model) 
 #Note: This code is similar in structure to model 1 code, however, the mode and results are entirely different.
 #Also, the start values and initial values of the parameters are different, so be careful not to mess up the analysis here.
 #%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
