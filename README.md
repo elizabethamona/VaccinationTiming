@@ -16,7 +16,7 @@
 
 
 
-**Model 2:** To obtain the parameter estimates and Psuedo-R^2 in Table 1 (in the paper) and the model fits Figure 4(a-f), you need three major files: "SVEIRDI2R2.Model2.R", "SVEIRD.R" and "SVEIRD.cpp". In addition, you need two other files: "StartStepValuesMC8_new.RData" and "Q1MCMC20_SV.Rdat". 
+**Model 2:** To obtain the parameter estimates and Psuedo-R^2 in Table 1 (in the paper) and the model fits Figure 4(a-f), you need three major files: "SVEIRDI_IR_R.Model2.R", "SVEIRD.R" and "SVEIRD.cpp". In addition, you need two other files: "StartStepValuesMC8_new.RData" and "Q1MCMC20_SV.Rdat". 
 
 **Instruction for Model 2 Analysis:**
 
@@ -29,7 +29,7 @@
 
 **Scenario Analysis and Hellinger Distance:** To reproduce a similar plot in Figure 5, run the "ScenarioHellingerDistAnalysis.R" file. This code will plot the density plots for all the six scenarios and their Hellinger distance calculation.
 
-**Instruction:** Ensure to load all the .Rdat files you obtain when you run your scenario analysis. I already generated my results, so I just "load" the results for all six scenarios in the "Scenario_HellingerDist_Analysis.R" code provided. Note that those are the results obtained from the scenario analysis I performed. If you want to perform your own scenario analysis, please use my main code and consider all the six scenarios I included in the "Scenario_HellingerDist_Analysis.R" file.
+**Instruction:** Ensure to load all the .Rdat files you obtain when you run your scenario analysis. I already generated my results, so I just "load" the results for all six scenarios in the "ScenarioHellingerDistAnalysis.R" code provided. Note that those are the results obtained from the scenario analysis I performed. If you want to perform your own scenario analysis, please use my main code and consider all the six scenarios I included in the "ScenarioHellingerDistAnalysis.R" file.
 
 **In summary:**
 - There are a total of **"7 R files" and "1 .Rdat file"**. Carefully run this file in the directory you have downloaded them all.
